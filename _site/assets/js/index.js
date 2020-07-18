@@ -516,9 +516,11 @@ var Game = function () {
       relativeX = e.clientX - rect.left
       relativeY = e.clientY - rect.top
     }
-
+    
+        
     var canvasX = Math.round(relativeX * mainCanvas.width / mainCanvas.clientWidth)
     var canvasY = Math.round(relativeY * mainCanvas.height / mainCanvas.clientHeight)
+    
     /* first click determines whether there is a bomb being dragged, then this handler moves that bomb if it exists*/
 
     if (!!draggedBomb) {
@@ -560,6 +562,7 @@ var Game = function () {
   menuCanvas.addEventListener('mousedown', gameClickHandler);
   menuCanvas.addEventListener('mouseup', gameUnclickHandler);
   menuCanvas.addEventListener('mousemove', gameDragHandler);
+  menuCanvas.addEventListener('mouseout', gameUnclickHandler);
   menuCanvas.addEventListener('touchstart', gameClickHandler);
   menuCanvas.addEventListener('touchend', gameUnclickHandler);
   menuCanvas.addEventListener('touchmove', gameDragHandler);

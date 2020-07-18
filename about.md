@@ -7,7 +7,7 @@ layout: default
 
 {::options parse_block_html="true" /}
 <div class="about">
-My name is **Joaquín Ponce**. I'm based in Mexico.
+My name is **Joaquín Ponce**. I'm based in Mexico and I'm a self-taught web developer.
 
 I started learning web development in January 2020 through TheOdinProject. It wasn't my first incursion into coding - while I didn't really know any language to a decent extent, I had used Lua before for scripting some content in a videogame. I also used to enjoy creating WeakAuras for World of Warcraft. I've always had interest in coding, but hadn't really taken it seriously.
 
