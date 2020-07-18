@@ -1,0 +1,12 @@
+---
+title: My Projects
+layout: default
+---
+
+<h1 class='header-main'>Projects</h1>
+
+{% for project in site.projects %}
+  {% include project.html %}
+{% endfor %}
+
+<script src='assets/js/index.js'></script>

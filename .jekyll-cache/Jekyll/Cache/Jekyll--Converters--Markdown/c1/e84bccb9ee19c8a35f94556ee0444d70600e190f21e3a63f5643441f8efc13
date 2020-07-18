@@ -1,0 +1,4 @@
+I"ê<p>A web app that displays detailed information on units from the videogame Age of Empires II: Definitive Edition. With the complexity of unit matchups in the game, the app aims to provide information how well a particular unit fares against others.</p>
+
+<p>Made with a <strong>React front-end</strong> and a <strong>Rails back-end</strong>, implementing <strong>ActiveAdmin</strong> for easy access to databse entries and allowing many people to contribute with the right permissions.</p>
+:ET

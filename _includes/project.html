@@ -1,0 +1,11 @@
+<div class='project' id="{{project.title}}">
+  <h1 class='project-header'>{{project.title}}</h1>
+  {% if project.image %}
+  <a href="{{project.link}}"><img class='project-image' src="{{ project.image }}"></a>
+  {% endif %}
+  <div class='project-description' >{{project.content}}</div>
+  <div class='project-links'>
+    <a href="{{project.link}}">Live</a>
+    <a href="{{project.repo}}">Source</a>
+  </div>
+</div>

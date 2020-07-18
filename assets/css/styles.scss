@@ -1,0 +1,145 @@
+---
+---
+@import "main";
+
+$nav-link: rgb(160, 160, 160);
+$link: rgb(100, 100, 100);
+$header: rgb(40, 40, 40);
+$text: rgb(50, 50, 50);
+$navbar: rgb(40, 40, 40);
+$light: rgb(220, 220, 220);
+
+body {
+  margin-top: 80px;
+  font-family: Calibri, Arial, Serif;
+  background-color: rgb(252, 252, 252);
+  color: $text;
+}
+
+p {
+  margin: 1em;
+  line-height: 1em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.nav-bar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $navbar;
+  
+  .nav-link, .nav-link:visited {
+      color: $nav-link;
+      text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: white;
+  }
+}
+
+.container-main {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-main {
+  color: $header;
+  margin-bottom: 60px;
+  font-size: 3em;
+}
+
+.project {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  
+  .project-header {
+    color: $header;
+    font-size: 2em;
+  }
+  
+  a {
+    width: 70%;
+    .project-image {
+      border: 1px solid $light;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  .project-description {
+    margin-bottom: 20px;
+  }
+  .project-links {
+    a {
+      color: $link;
+    }
+    a:hover {
+      color: black;
+    }
+  }
+}
+
+#game-canvas-container {
+  display: none;
+  margin-top: 20px;
+  width: 100%;
+  height: 550px;
+  position: relative;
+  canvas {
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    top: 0;
+  }
+}
+
+#sort-or-splode {
+  .project-image {
+    display: block;
+  }
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  font-size: 1.2em;
+  .contact-link {
+    color: $link;
+    text-decoration: none;
+  }
+  .contact-link:hover {
+    color: black;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (min-height: 600px) {
+  #game-canvas-container {
+    display: block;
+  }
+  #sort-or-splode {
+    .project-image {
+      display: none;
+    }
+  }
+} 
