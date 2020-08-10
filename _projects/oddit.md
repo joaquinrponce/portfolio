@@ -1,6 +1,6 @@
 ---
 title: oddit
-order: 3
+order: 4
 image: ./assets/img/odditproject.png
 link: https://the-oddit-project.herokuapp.com/all
 repo: https://github.com/Kokozord/the-oddit-project

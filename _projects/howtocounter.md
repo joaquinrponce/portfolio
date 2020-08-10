@@ -1,6 +1,6 @@
 ---
 title: howtocounter
-order: 1
+order: 2
 image: ./assets/img/howtocounter.png
 link: https://how-to-counter.herokuapp.com/
 repo: https://github.com/Kokozord/how-to-counter

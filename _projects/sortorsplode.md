@@ -1,6 +1,6 @@
 ---
 title: sort-or-splode
-order: 2
+order: 3
 image: ./assets/img/sortorsplode.png
 link: https://kokozord.github.io/sort-or-splode-app/
 repo: https://github.com/Kokozord/sort-or-splode-app
