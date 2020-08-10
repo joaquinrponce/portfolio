@@ -1,0 +1,14 @@
+I"n<h1 id="about-me">About Me</h1>
+
+<div class="about">
+  <p>My name is <strong>Joaquín Ponce</strong>. I’m a self-taught web developer based in Mexico.</p>
+
+  <p>I enjoy creating websites, be it front or back-end. My motivation comes from problem-solving and a passion for learning, as well as teaching others the knowledge I myself have learned. Currently, I’m invested in learning and utilizing React and Rails.</p>
+
+  <p>When not coding, I’m learning about coding. And when not learning, I’m usually playing videogames.</p>
+
+  <p>You can find me on:</p>
+
+  <p>(https://github.com/Kokozord”)[Github]</p>
+</div>
+:ET

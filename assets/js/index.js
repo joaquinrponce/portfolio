@@ -516,11 +516,11 @@ var Game = function () {
       relativeX = e.clientX - rect.left
       relativeY = e.clientY - rect.top
     }
-    
-        
+
+
     var canvasX = Math.round(relativeX * mainCanvas.width / mainCanvas.clientWidth)
     var canvasY = Math.round(relativeY * mainCanvas.height / mainCanvas.clientHeight)
-    
+
     /* first click determines whether there is a bomb being dragged, then this handler moves that bomb if it exists*/
 
     if (!!draggedBomb) {
@@ -604,7 +604,7 @@ var Game = function () {
     var ready = false;
 
     function checkIfReady() {
-      if (contentLoaded === imageFileNames.length) return true;
+      return contentLoaded === 5
     }
 
     function callback () {
@@ -622,7 +622,7 @@ var Game = function () {
       images[image].src = imageFileNames[imagesToLoad];
       imagesToLoad++;
     })
-    
+
   }
 
   return {

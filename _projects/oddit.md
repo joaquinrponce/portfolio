@@ -2,7 +2,8 @@
 title: oddit
 order: 3
 image: ./assets/img/odditproject.png
-link: https://the-oddit-project.herokuapp.com/all 
+preview: ./assets/img/oddit-preview.png
+link: https://the-oddit-project.herokuapp.com/all
 repo: https://github.com/Kokozord/the-oddit-project
 ---
 

@@ -1,0 +1,4 @@
+I"<p>A small project I’m working on, integrating <strong>React</strong> on the front end with a <strong>Rails back-end</strong>, communicating through <strong>ActionCable websockets</strong>.</p>
+
+<p>It is very simple and allows for multiple users to stream from the same channel (a chat room) at the same time. Mostly done as an introduction to websockets from a Rails standpoint. Eventually, the ability to be in multiple rooms at once, limiting the amount of people in a room, and room password may be added.</p>
+:ET
