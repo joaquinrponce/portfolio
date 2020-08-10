@@ -66,6 +66,6 @@ a { transition: color .3s; }
 
 @media only screen and (min-width: 1280px) and (min-height: 600px) { #game-canvas-container { display: block; } #sort-or-splode .project-image-link { display: none; } }
 
-@media only screen and (max-width: 900px) { body { margin-left: 0; margin-top: 20vh; } .nav-bar { bottom: auto; right: 0; width: 100%; flex-direction: row; justify-content: center; align-items: center; } .nav-bar .nav-link { margin: 0; margin-left: 1em; width: auto; } .nav-bar .intro { display: none; } }
+@media only screen and (max-width: 900px) { body { margin-left: 0; margin-top: 15vh; } .nav-bar { bottom: auto; right: 0; width: 100%; flex-direction: row; justify-content: center; align-items: center; } .nav-bar .nav-link { margin: 0; margin-left: 1em; width: auto; } .nav-bar .intro { display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
