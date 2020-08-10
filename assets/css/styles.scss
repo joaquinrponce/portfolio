@@ -83,12 +83,13 @@ a {
 }
 
 .project {
-  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
 
   .project-header {
     color: black;
@@ -102,7 +103,7 @@ a {
 
 
   .project-image-link {
-    width: 80%;
+    max-width: 800px;
     .project-image {
       border: 1px solid $light;
       margin-top: 20px;
