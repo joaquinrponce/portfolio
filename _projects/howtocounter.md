@@ -2,7 +2,6 @@
 title: howtocounter
 order: 1
 image: ./assets/img/howtocounter.png
-preview: ./assets/img/counter-preview.png
 link: https://how-to-counter.herokuapp.com/
 repo: https://github.com/Kokozord/how-to-counter
 ---

@@ -2,7 +2,6 @@
 title: cable-chat-app
 order: 1
 image: ./assets/img/chatscreen.png
-preview: ./assets/img/chat-preview.png
 link: https://cablechatapp.herokuapp.com/
 repo: https://github.com/Kokozord/cablechatapp
 ---

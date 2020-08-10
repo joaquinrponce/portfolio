@@ -8,7 +8,7 @@ layout: default
 {::options parse_block_html="true" /}
 <div class="about">
 
-Hello there. My name is Joaquin. I usually go by my handle, Koko.
+Hello there. I'm Joaquín.
 
 I began learning web development in January 2020. I was always interested in learning to code, but it wasn't until then that I decided to take on learning it seriously.
 

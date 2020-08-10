@@ -604,7 +604,7 @@ var Game = function () {
     var ready = false;
 
     function checkIfReady() {
-      return contentLoaded === 5
+      return contentLoaded === imagesToLoad
     }
 
     function callback () {

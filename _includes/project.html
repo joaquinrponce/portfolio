@@ -1,10 +1,7 @@
 <div class='project' id="{{project.title}}">
   <h1 class='project-header'><a href="{{project.link}}" class='header-link'>{{project.title}}</a></h1>
   {% if project.image %}
-  <div class='project-images'>
-    <a class='project-image-link' href="{{project.link}}"><img class='project-image' src="{{ project.image }}"></a>
-    <img class='project-image mobile' src="{{project.preview}}">
-  </div>
+  <a class='project-image-link' href="{{project.link}}"><img class='project-image' src="{{ project.image }}"></a>
   {% endif %}
   <div class='project-description' >{{project.content}}</div>
   <div class='project-links'>
