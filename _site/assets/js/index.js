@@ -384,12 +384,11 @@ var Game = function () {
     requestAnimationFrame(drawPlayerScore);
   }
 
-  function drawFrame() {
-    var timeStamp = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+  function drawFrame(timeStamp) {
     secondsPassed = (timeStamp - oldTimeStamp) / 1000;
     secondsPassed = Math.min(secondsPassed, 0.16);
+    if ((timeStamp - oldTimeStamp) < 16) return requestAnimationFrame(drawFrame)
     oldTimeStamp = timeStamp;
-
     if (gameOver || gamePaused || !gameStarted) {
       currentRequest = requestAnimationFrame(drawFrame);
     } else {
