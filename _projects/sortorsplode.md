@@ -2,8 +2,8 @@
 title: sort-or-splode
 order: 3
 image: ./assets/img/sortorsplode.png
-link: https://kokozord.github.io/sortorsplode/
-repo: https://github.com/Kokozord/sortorsplode
+link: https://joaquinrponce.github.io/sortorsplode/
+repo: https://github.com/joaquinrponce/sortorsplode
 ---
 
 <div id='game-canvas-container'>

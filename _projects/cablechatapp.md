@@ -3,7 +3,7 @@ title: cable-chat-app
 order: 1
 image: ./assets/img/chatscreen.png
 link: https://cablechatapp.herokuapp.com/
-repo: https://github.com/Kokozord/cablechatapp
+repo: https://github.com/joaquinrponce/cablechatapp
 ---
 
 A small project I'm working on, integrating **React** on the front end with a **Rails back-end**, communicating through **ActionCable websockets**.
